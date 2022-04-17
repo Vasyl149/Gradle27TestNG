@@ -349,3 +349,44 @@ Check if icons are displayed on left menu
 2022-04-17 14:12:46 INFO commonBO.MainMenuBO:18 -send text to textarea
 2022-04-17 14:12:46 INFO commonBO.MainMenuBO:25 -Verify the style of the elements
 2022-04-17 14:12:46 INFO logging.Log:11 -TEST FAILED
+2022-04-17 14:27:00 INFO commonBO.MainMenuBO:11 -Fill login and password
+2022-04-17 14:27:00 INFO commonBO.MainMenuBO:13 -Click 'Continue' button
+2022-04-17 14:27:00 INFO commonBO.MainMenuBO:22 -Check if there are new emails in the mailbox
+2022-04-17 14:27:00 INFO commonBO.MainMenuBO:21 -Get unread letters number
+2022-04-17 14:27:01 INFO logging.Log:11 -Everything passed 
+2022-04-17 14:27:01 INFO commonBO.MainMenuBO:14 -Get unread letters number
+2022-04-17 14:27:01 INFO logging.Log:16 -Get unread letters number
+2022-04-17 14:27:01 INFO commonBO.MainMenuBO:21 -Get unread letters number
+2022-04-17 14:27:01 INFO commonBO.MainMenuBO:54 -Check if 'Inbox' tab is selected
+2022-04-17 14:27:01 INFO logging.Log:11 -Check if 'Inbox' tab is selected
+2022-04-17 14:27:01 INFO logging.Log:16 -Everything passed
+2022-04-17 14:27:01 INFO commonBO.MainMenuBO:64 -Check if menu list contains 8 items
+2022-04-17 14:27:01 INFO logging.Log:11 -Check if menu list contains 8 items
+Check if menu consist of  'Inbox', 'Drafts', 'Sent', 'Spam' etc.
+Check if icons are displayed on left menu
+2022-04-17 14:27:01 INFO commonBO.MainMenuBO:70 -Check if menu consist of  'Inbox', 'Drafts', 'Sent', 'Spam' etc.
+2022-04-17 14:27:07 INFO commonBO.MainMenuBO:80 -Check if icons are displayed on left menu
+2022-04-17 14:27:07 INFO logging.Log:11 -Everything passed 
+2022-04-17 14:27:07 INFO commonBO.MainMenuBO:88 -Check if message counter is equal to the number of messages
+2022-04-17 14:27:07 INFO logging.Log:11 -Everything passed 
+2022-04-17 14:27:07 INFO logging.Log:11 -TEST PASSED
+2022-04-17 14:27:10 INFO commonBO.MainMenuBO:11 -Fill login and password
+2022-04-17 14:27:10 INFO commonBO.MainMenuBO:13 -Click 'Continue' button
+2022-04-17 14:27:10 INFO commonBO.MainMenuBO:96 -Get drafts number
+2022-04-17 14:27:12 INFO commonBO.MainMenuBO:25 -open Compose page
+2022-04-17 14:27:12 INFO commonBO.MainMenuBO:13 -Edit font style
+2022-04-17 14:27:12 INFO commonBO.MainMenuBO:16 -Switch to textarea frame
+2022-04-17 14:27:12 INFO commonBO.MainMenuBO:18 -send text to textarea
+2022-04-17 14:27:12 INFO commonBO.MainMenuBO:25 -Verify the style of the elements
+2022-04-17 14:27:12 INFO commonBO.MainMenuBO:32 -Switch to parent frame
+2022-04-17 14:27:12 INFO commonBO.MainMenuBO:35 -Verify fonts in the dropdown
+2022-04-17 14:27:12 INFO commonBO.MainMenuBO:41 -Add file
+2022-04-17 14:27:16 INFO commonBO.MainMenuBO:96 -Get drafts number
+2022-04-17 14:27:16 INFO commonBO.MainMenuBO:102 -Verify Drafts number
+2022-04-17 14:27:16 INFO commonBO.MainMenuBO:11 -Select first draft
+2022-04-17 14:27:16 INFO commonBO.MainMenuBO:13 -click send button
+2022-04-17 14:27:16 INFO commonBO.MainMenuBO:15 -close alert
+2022-04-17 14:27:16 INFO commonBO.MainMenuBO:17 -fill in email field
+2022-04-17 14:27:17 INFO commonBO.MainMenuBO:20 -click send button
+2022-04-17 14:27:21 INFO commonBO.MainMenuBO:14 -Verify sent mail
+2022-04-17 14:27:22 INFO logging.Log:11 -TEST PASSED
