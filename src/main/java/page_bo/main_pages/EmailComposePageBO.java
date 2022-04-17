@@ -23,7 +23,7 @@ public class EmailComposePageBO extends MainMenuBO {
 
     public EmailComposePageBO verifyStyleEditingElements(){
         logger.info("Verify the style of the elements");
-        Assert.assertEquals(emailComposePage.fontStyle(), "italic");
+        Assert.assertEquals(emailComposePage.fontStyle(), "i2talic");
         Assert.assertEquals(emailComposePage.fontWeight(), "700");
         return this;
     }
