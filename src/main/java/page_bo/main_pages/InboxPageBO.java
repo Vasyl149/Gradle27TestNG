@@ -9,7 +9,7 @@ import page_bo.main_pages.commonBO.MainMenuBO;
 
 public class InboxPageBO extends MainMenuBO {
     InboxPage inboxPage = new InboxPage();
-    @Step
+    @Step("Get unread letters number")
     public int getUnreadLettersNumber(){
         GeneralBO.logger.info("Get unread letters number");
         Log.log("Get unread letters number");
@@ -17,7 +17,7 @@ public class InboxPageBO extends MainMenuBO {
     }
 
 
-    @Step
+    @Step("Check if there are new emails in the mailbox")
     public InboxPageBO verifyUnreadLettersPresent() {
         GeneralBO.logger.info("Check if there are new emails in the mailbox");
         Assert.assertTrue(inboxPage.unreadMailList().size() > 0);

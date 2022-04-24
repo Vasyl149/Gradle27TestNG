@@ -37,46 +37,46 @@ public class EmailComposePage extends AbstractPageObject {
     @FindBy(css = "input.sendmsg__attachments-file-input")
     private WebElement fileInput;
 
-    @Step
+    @Step("Click on \"Bold\" button")
     public void boldButton() {
         boldButton.click();
     }
-    @Step
+    @Step("Click on \"Italic\" button")
     public void italicButton() {
         italicButton.click();
     }
 
-    @Step
+    @Step("Switch to the text area")
     public void switchToTextArea(){
         DriverManager.getDriver().switchTo().frame(textArea);
     }
 
-    @Step
+    @Step("Switch to parent frame")
     public void switchToParentFrame(){
         DriverManager.getDriver().switchTo().parentFrame();
     }
 
-    @Step
+    @Step("Fill in the text field")
     public void fillTextField(){
         textField.sendKeys(conf().message());
     }
 
-    @Step
+    @Step("Get font style")
     public String fontStyle(){
         return message.getCssValue("font-style");
     }
 
-    @Step
+    @Step("Get font weight")
     public String fontWeight(){
         return message.getCssValue("font-weight");
     }
 
-    @Step
+    @Step("Open drop-down with fonts")
     public void fontDropdown(){
         fontDropdown.click();
     }
 
-    @Step
+    @Step("Get a list of fonts")
     public List<WebElement> getFontList(){
         return fontList;
     }

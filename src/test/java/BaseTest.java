@@ -1,5 +1,6 @@
 import driver.BrowserInstance;
 import driver.DriverManager;
+import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -17,6 +18,7 @@ public abstract class BaseTest {
 
     @BeforeMethod
     //@Parameters("browser")
+    @Step("Login to the application")
     public void preCondition() {
         WebDriver driver = new BrowserInstance().createInstance(browser);
         System.out.println(System.getProperty("environment"));
@@ -30,7 +32,9 @@ public abstract class BaseTest {
         new LoginPageBO().logIn();
     }
 
+    @Step("Driver quit")
     @AfterMethod
+
     public void postCondition() {
         DriverManager.quit();
     }

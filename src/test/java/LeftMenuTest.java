@@ -9,18 +9,19 @@ import java.io.UnsupportedEncodingException;
 //@Listeners(ListenerTest.class)
 
 public class LeftMenuTest extends BaseTest {
-    @Test
+    @Test(description = "Verify menu items")
     public void menuListTest2() throws InterruptedException, UnsupportedEncodingException {
         //System.out.println(driver.getTitle());
 
 
-        int unreadLetters = new InboxPageBO().
-                verifyUnreadLettersPresent().
-                getUnreadLettersNumber();
+        int unreadLetters = new InboxPageBO()
+                .verifyUnreadLettersPresent()
+                .getUnreadLettersNumber();
 
         new MainMenuBO().verifyInboxIsSelected()
-                .verifyNavigationMenu().
-                verifyUnreadLettersNumber(unreadLetters);
+                .verifyNavigationMenu()
+                .verifyMenuIcons()
+                .verifyUnreadLettersNumber(unreadLetters);
 
     }
 
