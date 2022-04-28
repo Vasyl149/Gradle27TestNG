@@ -1,10 +1,8 @@
 package page.common;
 
 import io.qameta.allure.Step;
-import logging.Log;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-
 import page.AbstractPageObject;
 
 import java.util.List;

@@ -1,8 +1,8 @@
 package page_bo.main_pages;
 
 import io.qameta.allure.Step;
+import logging.LogLevels;
 import org.testng.Assert;
-
 import page.main.SentItemsPage;
 import page_bo.main_pages.commonBO.MainMenuBO;
 
@@ -13,7 +13,8 @@ public class SentPageBO extends MainMenuBO {
 
     @Step("Verify sent mails")
     public void verifySentMail() {
-        logger.info("Verify sent mail");
+        logger.log(LogLevels.INFO,"Verify sent mail");
         Assert.assertTrue(sentItemsPage.getSentItemEmail().equals(conf().testemail()));
+        logger.log("Everything passed");
     }
 }

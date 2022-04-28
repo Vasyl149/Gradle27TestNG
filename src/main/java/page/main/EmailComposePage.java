@@ -1,12 +1,12 @@
 package page.main;
 
+import driver.DriverManager;
 import io.qameta.allure.Step;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-
-import driver.DriverManager;
-import java.io.FileNotFoundException;
 import page.AbstractPageObject;
+
+import java.io.FileNotFoundException;
 import java.util.List;
 
 import static config.ConfigManager.conf;
