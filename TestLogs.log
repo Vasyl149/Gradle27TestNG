@@ -542,3 +542,44 @@ Check if icons are displayed on left menu
 2022-04-24 21:30:45 INFO commonBO.MainMenuBO:19 -fill in email field
 2022-04-24 21:30:47 INFO commonBO.MainMenuBO:22 -click send button
 2022-04-24 21:30:51 INFO logging.Log:11 -TEST FAILED
+2022-04-28 20:28:46 INFO logging.Log:22 -Fill login and password
+2022-04-28 20:28:46 INFO logging.Log:22 -Click 'Continue' button
+2022-04-28 20:28:46 INFO logging.Log:22 -Check if there are new emails in the mailbox
+2022-04-28 20:28:46 INFO logging.Log:22 -Get unread letters number
+2022-04-28 20:28:47 INFO logging.Log:15 -Everything passed
+2022-04-28 20:28:47 INFO logging.Log:22 -Get unread letters number
+2022-04-28 20:28:47 INFO logging.Log:22 -Get unread letters number
+2022-04-28 20:28:47 INFO logging.Log:22 -Check if 'Inbox' tab is selected
+2022-04-28 20:28:47 INFO logging.Log:15 -Everything passed
+2022-04-28 20:28:47 INFO logging.Log:22 -Check if menu list contains 8 items
+Check if menu consist of  'Inbox', 'Drafts', 'Sent', 'Spam' etc.
+2022-04-28 20:28:47 INFO logging.Log:15 -Everything passed
+2022-04-28 20:28:52 INFO logging.Log:22 -Check if icons are displayed on left menu
+2022-04-28 20:28:52 INFO logging.Log:15 -Everything passed
+2022-04-28 20:28:52 INFO logging.Log:22 -Check if message counter is equal to the number of messages
+2022-04-28 20:28:52 INFO logging.Log:15 -Everything passed
+2022-04-28 20:28:52 INFO logging.Log:10 -TEST PASSED
+2022-04-28 20:28:55 INFO logging.Log:22 -Fill login and password
+2022-04-28 20:28:55 INFO logging.Log:22 -Click 'Continue' button
+2022-04-28 20:28:56 INFO logging.Log:22 -Edit font style
+2022-04-28 20:28:57 INFO logging.Log:22 -Switch to textarea frame
+2022-04-28 20:28:57 INFO logging.Log:22 -send text to textarea
+2022-04-28 20:28:57 INFO logging.Log:22 -Verify the style of the elements
+2022-04-28 20:28:57 INFO logging.Log:15 -Everything passed
+2022-04-28 20:28:57 INFO logging.Log:22 -Switch to parent frame
+2022-04-28 20:28:57 INFO logging.Log:22 -Verify fonts in the dropdown
+2022-04-28 20:28:57 INFO logging.Log:15 -Everything passed
+2022-04-28 20:28:57 INFO logging.Log:22 -Add file
+2022-04-28 20:29:00 INFO logging.Log:15 -Everything passed
+2022-04-28 20:29:00 INFO logging.Log:10 -TEST PASSED
+2022-04-28 20:29:03 INFO logging.Log:22 -Fill login and password
+2022-04-28 20:29:04 INFO logging.Log:22 -Click 'Continue' button
+2022-04-28 20:29:05 INFO logging.Log:22 -Select first draft
+2022-04-28 20:29:05 INFO logging.Log:22 -click send button
+2022-04-28 20:29:06 INFO logging.Log:22 -close alert
+2022-04-28 20:29:06 INFO logging.Log:22 -fill in email field
+2022-04-28 20:29:07 INFO logging.Log:22 -click send button
+2022-04-28 20:29:11 INFO logging.Log:15 -Everything passed
+2022-04-28 20:29:11 INFO logging.Log:22 -Verify sent mail
+2022-04-28 20:29:11 INFO logging.Log:15 -Everything passed
+2022-04-28 20:29:11 INFO logging.Log:10 -TEST PASSED
