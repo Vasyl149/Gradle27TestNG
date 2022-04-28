@@ -10,7 +10,7 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
-import static com.github.automatedowl.tools.AllureEnvironmentWriter.allureEnvironmentWriter;
+//import static com.github.automatedowl.tools.AllureEnvironmentWriter.allureEnvironmentWriter;
 
 public class ListenerTest implements ITestListener {
     @Override
@@ -22,12 +22,12 @@ public class ListenerTest implements ITestListener {
     @Override
     public void onStart(ITestContext context) {
         System.out.println("2433242");
-        allureEnvironmentWriter(
-                ImmutableMap.<String, String>builder()
-                        .put("App_name", "ukrnet")
-                        .put("Environment", System.getProperty("environment"))
-                        .build(), System.getProperty("user.dir")
-                        +"/build/allure-results/");
+//        allureEnvironmentWriter(
+//                ImmutableMap.<String, String>builder()
+//                        .put("App_name", "ukrnet")
+//                        .put("Environment", System.getProperty("environment"))
+//                        .build(), System.getProperty("user.dir")
+//                        +"/build/allure-results/");
         System.out.println("Run test for: " + context.getSuite().getName());
 
 
